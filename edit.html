@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gal Avital</title>
+    <link rel="stylesheet" href="css/editstyle.css">
+</head>
+<body class="body1">
+    <form action="http://se.shenkar.ac.il/students/2022-2023/web1/dev_12/exercises/ex4/edit.php" method="get">
+    <h1>Your Shirt</h1><br><br>
+            <label for="shirt_name">Shirt Name:</label>
+            <input type="text" name="shirt_name" id="shirt_name" required>
+            <label for="shirt_color">Color:</label>
+            <select name="shirt_color" id="shirt_color">
+                <option value="white">White</option>
+                <option value="blue">Blue</option>
+                <option value="black">Black</option>
+                <option value="red">Red</option>
+                <option value="yellow">Yellow</option>
+            </select>
+            <label for="shirt_size">Size:</label>
+            <select id="shirt_size" name="shirt_size">
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+                <option value="xl">XL</option>
+              </select>
+        <button type="submit">Save Changes</button>
+    </form>
+</body>
+</html>
